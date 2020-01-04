@@ -27,7 +27,7 @@ public static void main(String[] args) throws MalformedURLException {
 	cap.setCapability(MobileCapabilityType.DEVICE_NAME, "VishnuPixel");
 	cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
 	cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
-	cap.setCapability(MobileCapabilityType.APP, "D:\\Appium\\Workspace\\com.appium\\app\\ApiDemos-debug.apk");
+	cap.setCapability(MobileCapabilityType.APP, "/Users/Vishnu/git/AppiumProject/src/main/resources/ApiDemos-debug.apk");
 //	cap.setCapability(MobileCapabilityType.APP, f1.getAbsolutePath());
 //	System.out.println("The absolute path for apk demo file is"+f1.getAbsolutePath());
 	
