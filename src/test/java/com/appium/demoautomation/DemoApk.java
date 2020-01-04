@@ -15,10 +15,10 @@ public class DemoApk {
 		
 		URL url = new URL("http://127.0.0.1:4723/wd/hub");
 		DesiredCapabilities cap = new DesiredCapabilities();
-		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "VishnuPixel");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Vishnu");
 		cap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");
-		cap.setCapability(MobileCapabilityType.APP, "D:\\Appium\\Workspace\\com.appium\\app\\ApiDemos-debug.apk");
+		cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.0.0");
+		cap.setCapability(MobileCapabilityType.APP, "/Users/Vishnu/git/AppiumProject/src/main/resources/ApiDemos-debug.apk");
 		
 		AndroidDriver driver = new AndroidDriver(url, cap);
 //		driver.findElementByXPath("//android.widget.TextView[@content-desc=\"Preference\"]").click();
